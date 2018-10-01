@@ -5,19 +5,18 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 import { AppComponent } from './app.component';
-import { FooterComponent } from './components/footer/footer.component';
-import { NgbdCarouselConfig } from './carousel-config';
+import { HeaderComponent } from './components/header/header.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    FooterComponent,
-    NgbdCarouselConfig
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
-    NgbModule.forRoot(),
+    NgbModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

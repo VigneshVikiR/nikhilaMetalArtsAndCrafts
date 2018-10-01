@@ -1,0 +1,25 @@
+#logo2{
+    object-fit: contain;
+    height: 100px;
+}
+
+.breakLine{
+    border: 1px solid burlywood;
+}
+img{
+    width:100%;
+    max-width:100%;
+  }
+  
+  .navbar{
+    position:fixed;
+    width:100%;
+    background-color:#fff;
+    z-index:10;
+    border-radius:0;
+    border-color:transparent;
+  }
+  .navbar-default .navbar-nav > li > a{
+    color:#000;
+    
+  }

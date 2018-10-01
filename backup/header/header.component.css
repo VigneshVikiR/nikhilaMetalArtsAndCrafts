@@ -1,0 +1,12 @@
+#logo2{
+    object-fit: contain;
+    height: 100px;
+}
+
+.breakLine{
+    border: 1px solid burlywood;
+}
+
+.navbar{
+    height: 100px;
+}
