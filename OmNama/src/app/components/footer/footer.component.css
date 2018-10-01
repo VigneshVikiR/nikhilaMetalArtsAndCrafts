@@ -1,49 +1,97 @@
 
-/* Sticky footer styles
--------------------------------------------------- */
-.footer {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom:0;
+body{
+  position: relative;
+  width: 100%;
+  top: 10px;
+  background-color: aliceblue;
+  padding-bottom:80px;
+}
+.footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.footer-top{
+  background: #F0E68C;
+  position: relative;
+  top: 10px;
   height: auto;
-  background-color: #fcfae1c6;
+  width: 100%;
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  text-align: center;
 }
 
-.container{
-  bottom:0;
-	width: 100%;
-  left: 0;
-  right: 0;
-  bottom:0;
-  display: flex; /* Standard syntax */
+/* Relates first half of the footer horizontally */
+
+.footer-about {
+  padding-bottom: 20px;
+}
+.footer-head-title-about-us ,.footer-header-title-contact {
+  font-family: cursive;
+  font-weight: 200;
+  text-align: center;
+  padding-bottom: 10px;
+  text-shadow: 1px 1px #888;
 }
 
-.Copyright{
-  padding-top: 25px;
-  font-size: 13px;
-  size: 20px;
-  color: rgb(31, 24, 132);
-  background-color: transparent;
-  cursor: pointer;
-  border: 0px solid;
-  outline: none;
+.description{
+  color: #888;
+  font-weight: 400;
+  line-break: 4px;
+  font-size: 15px;
+  line-height: 24px;
 }
 
-.list{
-  color: white;
-  font-size: 13px;
-  background-color: transparent;
-  outline: none;
-  border: 0px solid;
+.company-inc {
+  font-family: 'Open Sans', sans-serif
 }
- .termsandconditions, .copyright, .careers{
-  padding-top: 25px;
-  color: rgb(31, 24, 132);
-  font-size: 13px;
-  background-color: transparent;
-  outline: none;
-  size: 20px;
-  border: 0px solid;
-  cursor: pointer;
+
+/* Relates second half of the footer horizontally */
+
+.footer-head-title-contact {
+  font-family: cursive;
+  font-weight: 200;
+  text-align: center;
+  padding-bottom: 20px;
+  text-shadow: 1px 1px #888;
+
+}
+.address{
+  color: #888;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.phone{
+  color: #888;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.email  {
+  color: #888;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.footer-head-title-link{
+  font-family: cursive;
+  font-weight: 200;
+  text-align: center;
+  padding-bottom: 20px;
+  text-shadow: 1px 1px #888;
+}
+
+.link_heritage, .link_home, .link_crafts, .link_gallery {
+  font-size: 15px;
+  transition-timing-function: ease;
+  text-decoration: none;
+  color: #888;
+  font-family: 'Open Sans', sans-serif
+}
+
+.link_heritage:hover, .link_home:hover, .link_crafts:hover, .link_gallery:hover{
+  color: black
 }

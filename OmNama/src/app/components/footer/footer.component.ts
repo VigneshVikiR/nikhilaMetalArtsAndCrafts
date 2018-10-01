@@ -8,13 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class FooterComponent implements OnInit {
 
   constructor() {
+    console.log('it works')
    }
 
   ngOnInit() {
   }
 
-  displayText() {
-    console.log("hellop")
-  }
 
 }
