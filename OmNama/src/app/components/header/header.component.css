@@ -1,8 +1,116 @@
-#logo2{
+ #logo2{
     object-fit: contain;
     height: 100px;
+    padding-right: 0px;
+    margin: auto;
 }
 
+ h2{
+   float: right;
+   /* font-family: 'IBM Plex Serif', serif; */
+   font-family: 'Cambria', Arial, Helvetica, sans-serif;
+   /* font-family: 'Dancing Script', cursive; */
+   letter-spacing: 5px;
+   word-spacing: 20px;
+   padding-top: 30px;
+   padding-left: 0px;
+   color:#ffcc00;
+   margin: 0px;
+ }
+/* @media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+} */
+.imageFader{
+  object-fit: contain;
+  height: 500px;
+  overflow: hidden;
+}
+
+.lineDivider{
+  width: 350px;
+  height: auto;
+  clear: both;
+  display: block;
+  margin: 0 auto;
+}
+.imageFader img{
+  height: auto;
+  width: 100%;
+}
+
+.motoContent{
+  /* top: 500px; */
+  height: 500px;
+  width: 100%;
+  color: black;
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: 'Cambria', Arial, Helvetica, sans-serif;
+  display: block;
+  /* position: fixed; */
+}
+.headingContent{
+  top: 500px;
+}
+nav{
+  padding: 20px;
+  /* font-family: 'Times New Roman', Arial, Helvetica, sans-serif; */
+}
+
+.nav-item{
+  width: auto;
+  padding: 0px 50px 0px 50px;
+  margin: auto;
+}
+.navbar-brand{
+  margin-left: 0px;
+  padding-left: 0px;
+}
+nav .navbar-nav li a{
+  color:  rgb(87, 17, 17);
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: 'Cambria', Arial, Helvetica, sans-serif;
+}
+
+/* 
+#temple{
+  animation: fadein 5s;
+} */
+
+/* .row{
+  object-fit: contain;
+} */
+/* @keyframes fadein{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#rightText{
+  animation-direction: normal;
+  animation: fadein 5s;
+  color: whitesmoke;
+  font-family: Samantha-Upright;
+} */
+
+/* @keyframes slidein{
+  from {
+    margin-left: 100%;
+  }
+  to{
+    /* display: block; 
+    margin-left: 50%;
+  }
+} */
+
+.navbar-brand {display: none !important}
+/* #inner-navbar{padding-left: 0%} */
+/* .navbar {padding-left: 0px} */
+/*
 .breakLine{
     border: 1px solid burlywood;
 }
@@ -20,6 +128,6 @@ img{
     border-color:transparent;
   }
   .navbar-default .navbar-nav > li > a{
-    color:#000;
+    color:#000; */
     
-  }
+  /* } */
