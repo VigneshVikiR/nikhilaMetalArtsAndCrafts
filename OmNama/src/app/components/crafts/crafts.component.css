@@ -5,7 +5,8 @@
 /* css for first craft Image */
 .image1,.image2 {
   width: inherit;
-  object-fit: contain
+  object-fit: contain;
+  height: 400px;
 }
 
 .image2{
@@ -20,7 +21,7 @@
 }
 
 .craftHeader2 {
-  margin-top:30px;
+  margin-top: 50px;
   margin-left: 30px
 }
 /* css for first craft text */

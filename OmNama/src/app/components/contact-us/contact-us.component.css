@@ -1,8 +1,6 @@
  .container{
-	 padding-right: 15px;
-	 padding-left: 15px;
-	 margin-left: auto;
-	 margin-right: auto
+	margin-left: auto;
+	margin-right: auto;
  }
  .contact-details ul li img {
 	margin-top: 0;
@@ -11,7 +9,7 @@
 	margin-top: 0;
 	padding-top: 90px;
 	padding-bottom:100px;
-	padding-right : 25px;
+	padding-right : 5px;
 }
 .contact-area .contact-details li {
   overflow: hidden;
@@ -103,3 +101,4 @@
 	height: 360px;
 	width: 100%;
 }
+
