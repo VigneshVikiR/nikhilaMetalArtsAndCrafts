@@ -1,0 +1,23 @@
+.abtUs{
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.abtUsName{
+    text-align: center;
+    font-size: 1.5em;
+    word-spacing: 7px;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.profilepic{
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+}

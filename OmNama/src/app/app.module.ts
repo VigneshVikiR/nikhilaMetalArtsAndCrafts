@@ -10,8 +10,9 @@ import { FooterComponent } from './components/footer/footer.component';
 import { NgxPopper } from 'angular-popper';
 import { CraftsComponent } from './components/crafts/crafts.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
-import { NgwWowModule } from 'ngx-wow';
 
+import { AboutUsComponent } from './components/about-us/about-us.component';
+import { HomeComponent } from './components/home/home.component';
 
 
 @NgModule({
@@ -20,13 +21,14 @@ import { NgwWowModule } from 'ngx-wow';
     HeaderComponent,
     FooterComponent,
     CraftsComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    AboutUsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     NgbModule,
     NgxPopper,
-    NgwWowModule
   ],
   providers: [],
   bootstrap: [AppComponent]

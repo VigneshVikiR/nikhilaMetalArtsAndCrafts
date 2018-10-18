@@ -54,27 +54,21 @@
   font-family: 'Cambria', Arial, Helvetica, sans-serif;
   font-weight: 200;
   text-align: center;
+  display: block;
+  margin: auto;
+  padding-top: 10%;
   padding-bottom: 20px;
   /* text-shadow: 1px 1px #fff; */
 
 }
-.address{
+.contact{
   color: #fff;
   font-weight: 400;
   font-size: 15px;
+  padding: 0;
+  margin: 0;
 }
 
-.phone{
-  color: #fff;
-  font-weight: 400;
-  font-size: 15px;
-}
-
-.email  {
-  color: #fff;
-  font-weight: 400;
-  font-size: 15px;
-}
 
 .footer-head-title-link{
   font-family: 'Cambria', Arial, Helvetica, sans-serif;
@@ -93,7 +87,8 @@
 }
 
 .link_heritage:hover, .link_home:hover, .link_crafts:hover, .link_gallery:hover{
-  color: yellow;
+  color: rgb(158, 94, 10);
+  font-size: 20px;
 }
 
 /*  */
@@ -135,7 +130,7 @@
   color: #3B5998;
 }
 
-#lab_social_icon_footer #social-tw:hover {
+#social-tw:hover {
   color: #4099FF;
 }
 
