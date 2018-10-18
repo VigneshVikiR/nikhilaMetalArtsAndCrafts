@@ -24,7 +24,7 @@
 } */
 .imageFader{
   object-fit: contain;
-  height: 500px;
+  /* height: 500px; */
   overflow: hidden;
 }
 
@@ -50,8 +50,21 @@
   display: block;
   /* position: fixed; */
 }
+
+.slogam{
+  padding: 20px;
+  font-family: 'Dancing Script', cursive;
+  font-size-adjust: inherit;
+  font-size: 1.3em;
+}
+
+.slogam p{
+  padding: 0px;
+  margin: 0 auto;
+}
+
 .headingContent{
-  top: 500px;
+  /* top: 500px; */
 }
 nav{
   padding: 20px;
