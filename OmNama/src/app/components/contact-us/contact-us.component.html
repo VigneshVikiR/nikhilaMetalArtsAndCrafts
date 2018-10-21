@@ -1,8 +1,11 @@
 <div class="page-content">
-  <div class="contact-area gray-bg ptb-100" style="background-color: rgba(0, 89, 223, 0.612)">
+  <div class="contact-area gray-bg ptb-100" style="background-color: rgba(247, 244, 223, 0.612)">
         <div class="container" style="text-align:center">
             <div class="row" style="width:100%">
               <form id="contact-form" method="post" class=" col-md-6 col-lg-6 col-xs-9">
+                    <h2 style="text-align: left; color: gold; font-family:'Times New Roman', Times, serif; padding-left: 12px;"  >
+                      Get In Touch
+                    </h2>
                 <div class="all-contact-text"  style="width: 100%; padding-top: 10px">
                     <div class="col-sm-9 col-xs-12 col-md-9 col-lg-9">
                         <div class="main-contact">  
@@ -38,31 +41,24 @@
                     </div>
                 </div>
               </form>
-              <div class="contact-info col-md-12 col-lg-6">
-                    <h3 class="leave-comment-text" style="text-align:center">Contact Info</h3>
+              <div class="contact-info col-md-6 col-lg-6">
+                  <h3 class="leave-comment-text" style="text-align:center; color: gold">Contact Info</h3>
                     <div class="contact-details" style="text-align:center">
-                        <ul class = "list" style="margin-left:-20px">
-                            <li>
-                                <img src="../../../assets/c1.png" alt=""> &nbsp; Pudhumai Nagar, Ariyur, Vellore - 55
-                            </li>
-                            <br>
-                            <li>
-                                <img src="../../../assets/c2.png" alt="">&nbsp;  &nbsp;Telephone : (91) 97874 44059
-                            </li>
-                            <br>
-                            <li>
-                                <img src="../../../assets/c3.png" alt="">&nbsp;  &nbsp;Email : ssmaac@gmail.com
-                            </li>
-                        </ul>
+                        <img src="../../../assets/c1.png" alt=""> &nbsp; Pudhumai Nagar, Ariyur, Vellore - 55
+                        <br>
+                        <img src="../../../assets/c2.png" alt="">&nbsp;  &nbsp;Telephone : (91) 97874 44059
+                        <br>
+                        <img src="../../../assets/c3.png" alt="">&nbsp;  &nbsp;Email : ssmaac@gmail.com
+                  </div>
+                  <div class="contact-us-map-area col-md-12">
+                    <div class = "maps" style="border-radius:4px;">
+                     <agm-map [latitude]="latitude" [longitude]="longitude">
+                      <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
+                     </agm-map>
                     </div>
+                  </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="map-area">
-            <div class="contact-map">
-                <div id="hastech"></div>
-            </div>
-        </div>
+  </div>
 </div>
-

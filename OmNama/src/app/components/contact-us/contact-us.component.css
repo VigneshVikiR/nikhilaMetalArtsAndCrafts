@@ -1,6 +1,9 @@
  .container{
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
+	border-radius: 7px;
+	
  }
  .contact-details ul li img {
 	margin-top: 0;
@@ -9,7 +12,7 @@
 	margin-top: 0;
 	padding-top: 90px;
 	padding-bottom:100px;
-	padding-right : 5px;
+	padding-right : auto
 }
 .contact-area .contact-details li {
   overflow: hidden;
@@ -28,7 +31,8 @@
 	transition: all 0.3s ease 0s;
 	width: 100%;
 	border-color: rgba(249, 239, 229, 0.612);
-	font-family: cursive
+	font-family: 'Times New Roman', Times, serif;
+	box-shadow: rgba(0,0,0,0.4) 0 0 8px;
 }
 .main-contact input{
 	align-self: center
@@ -57,9 +61,11 @@
 	color: #666;
 	border: 1px solid #ffc400;
 }
+.main-contact{
+	box-shadow: rgba(255, 227, 137, 0.4) 0 0 8px;
+}
 .form-control:focus {
-	box-shadow: none;
-	outline: 0 none;
+	box-shadow: 2em;
 }
 .main-contact input::-webkit-input-placeholder,
 .tnm-textarea textarea::-webkit-input-placeholder {
@@ -84,10 +90,10 @@
 }
 
 .leave-comment-text{
-	padding-top: 35px;
+	padding-top: 15px;
 	padding-bottom: 20px;
 	padding-left:35px; 
-	font-family: cursive;
+	font-family: 'Times New Roman', Times, serif;
 	font-weight: 400;
 	font-size: 34px;
 }
@@ -102,3 +108,18 @@
 	width: 100%;
 }
 
+.contact-us-map-area{
+	padding-left: 30px;
+	padding-top: 20px
+}
+
+.maps{
+	width:100%;
+	border-radius: 10px;
+	height:250px;
+	background-color: azure
+}
+
+agm-map{
+	height: inherit;
+}

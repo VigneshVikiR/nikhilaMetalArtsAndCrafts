@@ -13,6 +13,7 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
 
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { HomeComponent } from './components/home/home.component';
+import { AgmCoreModule } from '@agm/core';
 
 
 @NgModule({
@@ -29,6 +30,9 @@ import { HomeComponent } from './components/home/home.component';
     BrowserModule,
     NgbModule,
     NgxPopper,
+    AgmCoreModule.forRoot({
+      apiKey: "AIzaSyDbDdcf6ahRa9Wat93EfnlyQkqkHE01RA4"
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

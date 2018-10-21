@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactUsComponent implements OnInit {
 
+  latitude = 12.870192;
+  longitude =  79.096735;
+
   constructor() {
     console.log('contact us works!!!')
    }
