@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { RouterModule } from '@angular/router';
 // import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 
@@ -32,7 +33,33 @@ import { AgmCoreModule } from '@agm/core';
     NgxPopper,
     AgmCoreModule.forRoot({
       apiKey: "AIzaSyDbDdcf6ahRa9Wat93EfnlyQkqkHE01RA4"
-    })
+    }),
+    RouterModule.forRoot([
+      {
+        path:'', 
+        component:HomeComponent
+      },
+      {
+        path:'home', 
+        component:HomeComponent
+      },
+      {
+        path:'about-us', 
+        component:AboutUsComponent
+      },
+      {
+        path:'crafts', 
+        component:CraftsComponent
+      },
+      {
+        path:'contact-us', 
+        component:ContactUsComponent
+      },
+      {
+        path:'**', 
+        component:HomeComponent
+      },
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
