@@ -13,7 +13,9 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
 
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { HomeComponent } from './components/home/home.component';
+import { GalleryComponent } from './components/OurMasterpieces/OurMasterpieces.component';
 import { AgmCoreModule } from '@agm/core';
+import { NgxGalleryModule } from 'ngx-gallery';
 
 
 @NgModule({
@@ -24,14 +26,16 @@ import { AgmCoreModule } from '@agm/core';
     CraftsComponent,
     ContactUsComponent,
     AboutUsComponent,
-    HomeComponent
+    HomeComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
     NgbModule,
     NgxPopper,
+    NgxGalleryModule,
     AgmCoreModule.forRoot({
-      apiKey: "AIzaSyDbDdcf6ahRa9Wat93EfnlyQkqkHE01RA4"
+      apiKey: "AIzaSyDbDdcf6ahRa9Wat93EfnlyQkqkHE01RA4" // API key for google maps
     })
   ],
   providers: [],
