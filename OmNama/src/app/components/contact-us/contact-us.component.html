@@ -1,9 +1,10 @@
 <div class="page-content">
-  <div class="contact-area gray-bg ptb-100" style="background-color: rgba(247, 244, 223, 0.612)">
+  <div class="contact-area gray-bg ptb-100" style="background-color: rgba(255, 255, 255, 0.612)">
         <div class="container" style="text-align:center">
             <div class="row" style="width:100%">
               <form id="contact-form" method="post" class=" col-md-6 col-lg-6 col-xs-6" style="padding-right: inherit;padding-left: 25px;">
-                    <h2 style="text-align: left; color: rgb(8, 8, 8); font-family:cursive; padding-left: 12px; position: relative"  >
+                    <h2 style="text-align: left; color: rgb(8, 8, 8); font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif';
+                    ; padding-left: 12px; position: relative"  >
                       Get In Touch
                     </h2>
                 <div class="all-contact-text"  style="width: 100%; padding-top: 10px">
@@ -44,6 +45,7 @@
               <div class="contact-info col-md-6 col-lg-6">
                   <h3 class="leave-comment-text" style="text-align:center; color: rgb(5, 5, 5)">Contact Info</h3>
                     <div class="contact-details" style="text-align:center">
+                        <h4>Vellore</h4>
                         <img src="../../../assets/c1.png" alt=""> &nbsp; Pudhumai Nagar, Ariyur, Vellore - 55.
                         <br>
                         <img src="../../../assets/c2.png" alt="">&nbsp;  &nbsp;Telephone : (91) 97874 44059
@@ -52,21 +54,43 @@
                   </div>
                   <br>
                   <div class="contact-details" style="text-align:center">
+                    <h4>Thirupathi</h4>
                     <img src="../../../assets/c1.png" alt=""> &nbsp; Thirupathi.
                     <br>
                     <img src="../../../assets/c2.png" alt="">&nbsp;  &nbsp;Telephone : (91) 97874 44059
                     <br>
                     <img src="../../../assets/c3.png" alt="">&nbsp;  &nbsp;Email : ssmaac@gmail.com
-              </div>
-                  <div class="contact-us-map-area col-md-12 col-xs-12" style="border-radius:6px">
-                    <div class = "maps" style="border-radius:4px; padding-top: auto">
-                     <agm-map [latitude]="latitude" [longitude]="longitude">
-                      <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
-                     </agm-map>
                     </div>
+                <br/>
+                <h5>Follow us on </h5>
+                <br>
+                <div class="socialIcons">
+                    <!-- Text -->
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 col-lg-4">
+                      <a routerLink="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i><img src="../../../assets/facebook-logo.png"></a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-lg-4">
+                    <a routerLink="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i><img src="../../../assets/twitter-logo.png"></a>
                   </div>
+                  <div class="col-md-4 col-sm-4 col-lg-4">
+                    <a routerLink="https://plus.google.com/"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i><img src="../../../assets/instagram.png"></a>
+                  </div>
+                  </div>
+                    <!-- <a routerLink="mailto:#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a> -->
                 </div>
-            </div>
+              </div>
         </div>
+    </div>
+        <div class="row" style="width:100%;height: 400px;" style="padding-right:0px;">
+            <div class="contact-us-map-area col-md-12 col-xs-12 col-lg-12" style="border-radius:6px">
+                <div class = "maps" style="border-radius:4px; padding-top: auto">
+                 <agm-map [latitude]="latitude" [longitude]="longitude">
+                  <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
+                 </agm-map>
+                </div>
+              </div>
   </div>
+  
+</div>
 </div>
