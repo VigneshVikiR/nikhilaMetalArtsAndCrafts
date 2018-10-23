@@ -109,17 +109,16 @@
 }
 
 .contact-us-map-area{
-	padding-left: 30px;
-	padding-top: 20px
+	padding-right: 0px;
+	padding-top: 45px
 }
 
 .maps{
 	width:100%;
 	border-radius: 10px;
-	height:250px;
-	background-color: azure
+	height:300px;
 }
 
 agm-map{
-	height: inherit;
+	height: 300px;
 }
