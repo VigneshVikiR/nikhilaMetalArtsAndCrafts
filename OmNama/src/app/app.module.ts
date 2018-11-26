@@ -11,12 +11,15 @@ import { FooterComponent } from './components/footer/footer.component';
 import { NgxPopper } from 'angular-popper';
 import { CraftsComponent } from './components/crafts/crafts.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
+// import { OurMasterpiecesComponent } from './components/OurMasterpieces/OurMasterpieces.component';
 
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { HomeComponent } from './components/home/home.component';
 import { GalleryComponent } from './components/OurMasterpieces/OurMasterpieces.component';
 import { AgmCoreModule } from '@agm/core';
 import { NgxGalleryModule } from 'ngx-gallery';
+import { HeritageComponent } from './components/heritage/heritage.component';
+import { MasterpiecesHomeComponent } from './components/masterpieces-home/masterpieces-home.component';
 
 
 @NgModule({
@@ -28,7 +31,9 @@ import { NgxGalleryModule } from 'ngx-gallery';
     ContactUsComponent,
     AboutUsComponent,
     HomeComponent,
-    GalleryComponent
+    GalleryComponent,
+    HeritageComponent,
+    MasterpiecesHomeComponent
   ],
   imports: [
     BrowserModule,
@@ -46,6 +51,14 @@ import { NgxGalleryModule } from 'ngx-gallery';
       {
         path:'home', 
         component:HomeComponent
+      },
+      {
+        path:'heritage', 
+        component:HeritageComponent
+      },
+      {
+        path:'masterpieces', 
+        component:MasterpiecesHomeComponent
       },
       {
         path:'about-us', 

@@ -97,7 +97,7 @@
   padding: 90px;
 }
 
-#lab_social_icon_footer {
+/* #lab_social_icon_footer {
   padding: 40px 0;
   background-color: #dedede;
 }
@@ -112,24 +112,24 @@
   -o-transform: scale(1.1);
 }
 
-#lab_social_icon_footer .social {
+#lab_social_icon_footer .social:hover {
   -webkit-transform: scale(0.8);
   /* Browser Variations: */
   
-  -moz-transform: scale(0.8);
+  /* -moz-transform: scale(0.8);
   -o-transform: scale(0.8);
   -webkit-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
-}
+}  */
 /*
     Multicoloured Hover Variations
 */
-
+/* 
 #lab_social_icon_footer #social-fb:hover {
   color: #3B5998;
-}
-
+} */
+/* 
 #social-tw:hover {
   color: #4099FF;
 }
@@ -140,4 +140,4 @@
 
 #lab_social_icon_footer #social-em:hover {
   color: #f39c12;
-}
+} */
