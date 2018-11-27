@@ -1,0 +1,62 @@
+.heritageIndex{
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    width: 100%;
+    height: auto;
+}
+.heritageIndexVertical{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+.welcome{
+    display: block;
+    /* margin: auto; */
+    margin-top: 150px;
+    clear: both;
+    width: 50%;
+    height: auto;
+}
+p{
+    margin: auto;
+    display: block;
+}
+.socialIcons{
+    padding-top: 10px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+.videos{
+    background-image: url(../../../assets/home-back-03.jpg);
+    /* background-repeat: no-repeat; */
+    /* background-image: unset; */
+    height: auto;
+    width: auto;
+    opacity: 1;
+    z-index: 2;
+    /* border-image-width: 100%; */
+    /* -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px); */
+}
+
+.thumbnail{
+    display: block;
+    width: 30%;
+    height: auto;
+    z-index: 1;
+    margin: auto;
+    /* -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px); */
+}
+
+
