@@ -1,25 +1,23 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { RouterModule } from '@angular/router';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import {RouterModule} from '@angular/router';
+import {AppComponent} from './app.component';
+import {HeaderComponent} from './components/header/header.component';
+import {FooterComponent} from './components/footer/footer.component';
+import {NgxPopper} from 'angular-popper';
+import {CraftsComponent} from './components/crafts/crafts.component';
+import {ContactUsComponent} from './components/contact-us/contact-us.component';
+import {AboutUsComponent} from './components/about-us/about-us.component';
+import {HomeComponent} from './components/home/home.component';
+import {AgmCoreModule} from '@agm/core';
+import {NgxGalleryModule} from 'ngx-gallery';
+import {HeritageComponent} from './components/heritage/heritage.component';
+import {MasterpiecesHomeComponent} from './components/masterpieces-home/masterpieces-home.component';
+// import {GallerizeModule} from '@ngx-gallery/gallerize';
+import {MasterpieceDetailComponent} from './components/masterpiece-detail/masterpiece-detail.component';
 // import { MDBBootstrapModule } from 'angular-bootstrap-md';
-
-
-import { AppComponent } from './app.component';
-import { HeaderComponent } from './components/header/header.component';
-import { FooterComponent } from './components/footer/footer.component';
-import { NgxPopper } from 'angular-popper';
-import { CraftsComponent } from './components/crafts/crafts.component';
-import { ContactUsComponent } from './components/contact-us/contact-us.component';
 // import { OurMasterpiecesComponent } from './components/OurMasterpieces/OurMasterpieces.component';
-
-import { AboutUsComponent } from './components/about-us/about-us.component';
-import { HomeComponent } from './components/home/home.component';
-import { GalleryComponent } from './components/OurMasterpieces/OurMasterpieces.component';
-import { AgmCoreModule } from '@agm/core';
-import { NgxGalleryModule } from 'ngx-gallery';
-import { HeritageComponent } from './components/heritage/heritage.component';
-import { MasterpiecesHomeComponent } from './components/masterpieces-home/masterpieces-home.component';
 
 
 @NgModule({
@@ -31,11 +29,12 @@ import { MasterpiecesHomeComponent } from './components/masterpieces-home/master
     ContactUsComponent,
     AboutUsComponent,
     HomeComponent,
-    GalleryComponent,
     HeritageComponent,
-    MasterpiecesHomeComponent
+    MasterpiecesHomeComponent,
+    MasterpieceDetailComponent
   ],
   imports: [
+    // GallerizeModule,
     BrowserModule,
     NgbModule,
     NgxPopper,
@@ -45,40 +44,37 @@ import { MasterpiecesHomeComponent } from './components/masterpieces-home/master
     }),
     RouterModule.forRoot([
       {
-        path:'', 
-        component:HomeComponent
+        path: '',
+        component: HomeComponent
       },
       {
-        path:'home', 
-        component:HomeComponent
+        path: 'home',
+        component: HomeComponent
       },
       {
-        path:'heritage', 
-        component:HeritageComponent
+        path: 'heritage',
+        component: HeritageComponent
       },
       {
-        path:'masterpieces', 
-        component:MasterpiecesHomeComponent
+        path: 'masterpieces',
+        component: MasterpiecesHomeComponent
       },
       {
-        path:'about-us', 
-        component:AboutUsComponent
+        path: 'about-us',
+        component: AboutUsComponent
       },
       {
-        path:'crafts', 
-        component:CraftsComponent
+        path: 'contact-us',
+        component: ContactUsComponent
       },
       {
-        path:'contact-us', 
-        component:ContactUsComponent
-      },
-      {
-        path:'**', 
-        component:HomeComponent
-      },
+        path: 'masterpieces-detail',
+        component: MasterpieceDetailComponent
+      }
     ])
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
